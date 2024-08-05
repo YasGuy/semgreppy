@@ -1,0 +1,6 @@
+rules:
+  - id: assert-used
+    pattern: assert ...
+    message: "Avoid using bare assert statements"
+    severity: WARNING
+    languages: [python]
